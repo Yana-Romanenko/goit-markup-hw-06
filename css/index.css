@@ -1,7 +1,14 @@
-@import "../base/common.css";
-@import "../base/container.css";
-@import "../base/section.css";
+@import "../css/base/common.css";
+@import "../css/base/container.css";
+@import "../css/base/section.css";
 @import "../css/utils/visually-hidden.css";
 
 /* ========== Layout ========== */
 @import "../css/layout/header.css";
+@import "../css/layout/hero-section.css";
+@import "../css/layout/first-section.css";
+@import "../css/layout/second-section.css";
+@import "../css/layout/second-section.css";
+@import "../css/layout/third-section.css";
+@import "../css/layout/footer.css";
+@import "../css/layout/backdrop.css";
