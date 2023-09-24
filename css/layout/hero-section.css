@@ -1,18 +1,27 @@
 /* ========== Hero Section ========== */
 
 .hero-section {
-  padding: 188px 0;
+  padding: 85px 0;
   background-color: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(/images/background-img/mobile-version.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 1440px;
   background-position: center;
   margin: 0 auto;
+}
+
+@media screen and (min-resolution: 192dpi) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(/images/background-img/mobile-version@2x.jpg);
+  }
 }
 
 .main-title {
@@ -65,11 +74,60 @@
 
     margin-bottom: 47px;
     max-width: 496px;
+
+    .hero-section {
+      padding: 123px 0;
+      background-color: #2e2f42;
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(/images/background-img/tablet-version.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin: 0 auto;
+    }
+
+    @media screen and (min-resolution: 192dpi) {
+      .hero-section {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ),
+          url(/images/background-img/tablet-version@2x.jpg);
+      }
+    }
   }
 }
 
 @media screen and (min-width: 1158px) {
   .main-title {
     margin-bottom: 48px;
+  }
+
+  .hero-section {
+    padding: 188px 0;
+    background-color: #2e2f42;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(/images/background-img/people-office.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-resolution: 192dpi) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(/images/background-img/people-office\ @2x.jpg);
+    }
   }
 }
