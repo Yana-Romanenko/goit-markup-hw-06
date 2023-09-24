@@ -19,8 +19,11 @@
 }
 
 .first-section-list {
-  margin-bottom: 72px;
   width: 100%;
+}
+
+.first-section-list-item {
+  margin-bottom: 72px;
 }
 
 .first-section-icon-container {

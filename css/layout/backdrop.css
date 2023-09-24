@@ -24,9 +24,9 @@
 }
 
 .modal {
-  width: 408px;
-  min-height: 584px;
-  padding: 72px 24px 24px 24px;
+  width: 288px;
+  min-height: 623px;
+  padding: 78px 16px 24px 16px;
   border-radius: 4px;
   background: #fcfcfc;
   position: absolute;
@@ -76,14 +76,13 @@
 }
 
 .form-text {
-  width: 360px;
+  width: 260px;
   color: #2e2f42;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 24px;
 }
 
 .form-field-wrapper {
@@ -276,4 +275,26 @@
 
 .footer-button-icon {
   margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px 24px;
+  }
+
+  .form-text {
+    width: 360px;
+    color: #2e2f42;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-top: 24px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
 }
