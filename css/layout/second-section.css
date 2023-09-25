@@ -29,6 +29,7 @@
 }
 
 .second-section-list-item {
+  margin-bottom: 72px;
   max-width: 264px;
 
   border-radius: 0px 0px 4px 4px;
@@ -87,8 +88,12 @@
 
   .second-section-list-item {
     width: calc((100% - 24px) / 2);
-    margin-left: auto;
-    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .second-section-container {
+    width: 584px;
   }
 }
 

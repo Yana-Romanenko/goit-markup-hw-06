@@ -20,10 +20,16 @@
 
 .first-section-list {
   width: 100%;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .first-section-list-item {
   margin-bottom: 72px;
+}
+
+.last-list-item {
+  margin-bottom: 0;
 }
 
 .first-section-icon-container {
@@ -53,6 +59,7 @@
 
   .first-section-list-item {
     width: calc((100% - 24px) / 2);
+    margin-bottom: 0;
   }
 }
 
