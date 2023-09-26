@@ -723,7 +723,17 @@
 
     <!-- ========== Mobile menu ========== -->
 
-    <div class="mobile-menu">
+    <div class="mobile-menu is-open">
+      <button class="close-button" type="button">
+        <svg
+          class="close-button-icon"
+          width="8"
+          height="8"
+          aria-label="close-button"
+        >
+          <use href="./images/icons.svg#icon-close-icon"></use>
+        </svg>
+      </button>
       <nav>
         <ul class="mobile-menu-list">
           <li class="list mobile-menu-navigation">
@@ -748,7 +758,9 @@
               >
             </li>
             <li class="list menu-adress-list-item">
-              <a class="link menu-adress-item" href="tel:+110001111111"
+              <a
+                class="link menu-adress-item menu-phone-item"
+                href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
